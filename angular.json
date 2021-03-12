@@ -116,9 +116,16 @@
               "devServerTarget": "github-login-firebase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "github-login-firebase"
+  "defaultProject": "github-login-firebase",
+  "cli": {
+    "analytics": false
+  }
 }
